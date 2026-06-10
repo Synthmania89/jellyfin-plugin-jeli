@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "JELI (Enhanced Library Images)",
+    "description": "JELI generates stunning perspective poster-wall splash screens for your Jellyfin libraries. Choose from 6 perspective modes (diagonal, floor, ceiling, barrel, flat), add custom overlay images and text layers, upload custom fonts, and schedule automatic regeneration. Built by Synthmania.",
+    "overview": "Generate perspective poster-wall splash screens for your Jellyfin libraries.",
+    "owner": "Synthmania",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/Synthmania89/jellyfin-plugin-jeli/main/assets/thumb.jpg",
+    "versions": [
+      {
+        "version": "1.1.0.2",
+        "changelog": "Public release. Six perspective modes (↖ Diagonal, ↗ Diagonal, ⬆ Floor, ⬇ Ceiling, ⊙ Barrel, ▦ Flat Wall). Six image source modes. Per-library overlay images and text layers. Two bundled fonts (Pasajero, Candy Kisses). Four default gradient overlays. Auto-scheduling with live task updates. Generations manager tab. Resolution-aware live preview. Output console relocated below the preview panel.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/Synthmania89/jellyfin-plugin-jeli/releases/download/v1.1.0.2/jellyfin-plugin-jeli_v1.1.0.2.zip",
+        "checksum": "6c2b5fd7ed80aa512dad92efdace47a1",
+        "timestamp": "2026-06-10T00:00:00Z"
+      }
+    ]
+  }
+]
