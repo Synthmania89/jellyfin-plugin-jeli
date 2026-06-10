@@ -2,7 +2,7 @@
 
 <img src="assets/Jeli-repo-banner.png" alt="JELI Banner" width="800"/>
 
-# JELI — Jellyfin Enhanced Library Images
+# JELI — Enhanced Library Images
 
 **Perspective poster-wall splash screens for Jellyfin**
 
@@ -16,7 +16,7 @@
 
 ## What is JELI?
 
-JELI is a Jellyfin plugin that automatically generates beautiful **perspective poster-wall splash screens** for your media libraries. Instead of a plain folder icon, each library gets a cinematic image built from your own posters, thumbs, and backdrops — warped into one of 6 stunning perspective views, with optional custom overlays and text.
+JELI is a Jellyfin plugin that automatically generates beautiful **perspective thumbnail splash screens for your library content**, built directly from each media library's own posters, thumbs, and backdrops. Instead of a plain folder icon, each library gets a cinematic background image — a wall of your own content warped into one of 6 stunning perspective views, with optional custom overlays and text.
 
 <div align="center">
 
