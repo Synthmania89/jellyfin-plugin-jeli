@@ -1,7 +1,7 @@
 [
   {
     "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-    "name": "JELI (Enhanced Library Images)",
+    "name": "JELI (Jellyfin Enhanced Library Images)",
     "description": "JELI generates beautiful perspective thumbnail splash screens for your library content, built directly from each library's own posters, thumbs, and backdrops. Choose from 6 perspective modes (diagonal, floor, ceiling, barrel, flat), add custom overlay images and text layers, upload custom fonts, and schedule automatic regeneration. Built by Synthmania.",
     "overview": "Generate perspective thumbnail splash screens for your library content from each of your media libraries.",
     "owner": "Synthmania",
