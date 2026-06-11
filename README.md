@@ -16,7 +16,7 @@
 
 ## What is JELI?
 
-JELI is a Jellyfin plugin that automatically generates beautiful **perspective thumbnail images for your library cover arts**, built directly from each media library's own posters, thumbs, and backdrops. Instead of a plain folder icon, each library gets a cinematic background image — a wall of your own content warped into one of 6 stunning perspective views, with optional custom overlays and text.
+JELI is a Jellyfin plugin that automatically generates beautiful **perspective thumbnail images for your libraries**, built directly from each media library's own posters, thumbs, and backdrops. Instead of a plain folder icon, each library gets a cinematic background image — a wall of your own content warped into one of 6 stunning perspective views, with optional custom overlays and text.
 
 <div align="center">
 
