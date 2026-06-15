@@ -1,13 +1,21 @@
 [
   {
     "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-    "name": "JELI (Jellyfin Enhanced Library Images)",
+    "name": "JELI (Enhanced Library Images)",
     "description": "JELI generates beautiful perspective thumbnail splash screens for your library content, built directly from each library's own posters, thumbs, and backdrops. Choose from 6 perspective modes (diagonal, floor, ceiling, barrel, flat), add custom overlay images and text layers, upload custom fonts, and schedule automatic regeneration. Built by Synthmania.",
     "overview": "Generate perspective thumbnail splash screens for your library content from each of your media libraries.",
     "owner": "Synthmania",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/Synthmania89/jellyfin-plugin-jeli/main/assets/thumb.jpg",
     "versions": [
+      {
+        "version": "1.2.0.1",
+        "changelog": "Added 8 new bundled default fonts: Disney Script, Cathode, Vin Mono Pro Medium, Neon Light, CassandraTwo, Budmo Jigglish, Budmo Jiggler, CarnavaleDelight (alongside Pasajero and Candy Kisses, now 10 total). Basic settings redesigned: dropdowns on the left, larger perspective preview on the right. New high-resolution (960x540) perspective preview images rendered from the actual algorithm for all 6 modes. Fixed font preload spam (no more 404s for system fonts). Sidebar menu renamed to JELI with custom logo support via /Jeli/Logo endpoint.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/Synthmania89/jellyfin-plugin-jeli/releases/download/v1.2.0.1/jellyfin-plugin-jeli_v1.2.0.1.zip",
+        "checksum": "233367344a9d674ce1a6b643220ed16f",
+        "timestamp": "2026-06-14T00:00:00Z"
+      },
       {
         "version": "1.1.0.2",
         "changelog": "Public release. Six perspective modes (↖ Diagonal, ↗ Diagonal, ⬆ Floor, ⬇ Ceiling, ⊙ Barrel, ▦ Flat Wall). Six image source modes. Per-library overlay images and text layers. Two bundled fonts (Pasajero, Candy Kisses). Four default gradient overlays. Auto-scheduling with live task updates. Generations manager tab. Resolution-aware live preview. Output console relocated below the preview panel.",

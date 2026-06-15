@@ -2,12 +2,12 @@
 
 <img src="assets/Jeli-repo-banner.png" alt="JELI Banner" width="800"/>
 
-# JELI — Jellyfin Enhanced Library Images
+# JELI — Enhanced Library Images
 
 **Perspective poster-wall splash screens for Jellyfin**
 
 [![Jellyfin](https://img.shields.io/badge/Jellyfin-10.11.11-purple?logo=jellyfin&logoColor=white)](https://jellyfin.org)
-[![Version](https://img.shields.io/badge/Version-1.1.0.2-gold)](https://github.com/Synthmania89/jellyfin-plugin-jeli/releases)
+[![Version](https://img.shields.io/badge/Version-1.2.0.1-gold)](https://github.com/Synthmania89/jellyfin-plugin-jeli/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 </div>
@@ -16,7 +16,7 @@
 
 ## What is JELI?
 
-JELI is a Jellyfin plugin that automatically generates beautiful **perspective thumbnail images for your libraries**, built directly from each media library's own posters, thumbs, and backdrops. Instead of the basic library thumbnail, each library gets a cinematic background image — a wall of your own content warped into one of 6 stunning perspective views, with optional custom overlays and text.
+JELI is a Jellyfin plugin that automatically generates beautiful **perspective thumbnail splash screens for your library content**, built directly from each media library's own posters, thumbs, and backdrops. Instead of a plain folder icon, each library gets a cinematic background image — a wall of your own content warped into one of 6 stunning perspective views, with optional custom overlays and text.
 
 <div align="center">
 
@@ -34,7 +34,7 @@ JELI is a Jellyfin plugin that automatically generates beautiful **perspective t
 - 🖼️ **6 Image Source Modes** — Posters, Thumbs, Backdrops, and all combinations
 - 🎨 **Per-Library Overlays** — Upload any PNG/JPG to composite on top of the wall
 - 🔤 **Text Layers** — Add library name or custom text with full font, size, color, shadow controls
-- 🅰️ **Custom Fonts** — Upload your own TTF/OTF fonts; comes bundled with **Pasajero** and **Candy Kisses**
+- 🅰️ **Custom Fonts** — Upload your own TTF/OTF fonts; comes with **10 bundled fonts** ready to use
 - 📐 **1080p & 4K Output** — Full resolution support with fast bitmap caching (~3 second generation)
 - ⏰ **Auto-Schedule** — Daily at a set time, or every N hours
 - 🗂️ **Generations Manager** — View, preview, download, or delete all generated images
@@ -141,9 +141,16 @@ Upload any PNG/JPG as an overlay. Four gradient overlays are bundled and ready t
 - `Jeli-default-overlay-clear-4k.png` — dark/clear gradient for 4K
 
 ### Fonts Tab
-Upload your own TTF/OTF fonts. Bundled fonts available immediately:
+Upload your own TTF/OTF fonts. 10 bundled fonts available immediately:
 - **Pasajero** — clean geometric sans-serif
 - **Candy Kisses** — decorative display font
+- **Disney Script** — flowing script font
+- **Cathode** — retro CRT-style font
+- **Vin Mono Pro Medium** — clean monospace
+- **Neon Light** — glowing neon-tube style
+- **CassandraTwo** — display font
+- **Budmo Jigglish** / **Budmo Jiggler** — playful wobbly display fonts
+- **CarnavaleDelight** — decorative display font
 
 ---
 
@@ -167,7 +174,7 @@ To deploy manually: copy `Jellyfin.Plugin.Jeli.dll` + `meta.json` + `Web/thumb.j
 
 | JELI Version | Jellyfin Version |
 |:---:|:---:|
-| 1.1.0.2 | 10.11.11 |
+| 1.2.0.1 | 10.11.11 |
 
 ---
 
@@ -196,7 +203,7 @@ MIT License — see [LICENSE](LICENSE)
 
 - Built by **Synthmania**
 - Perspective algorithm inspired by the Jellyfin web source and Python PIL reference implementation
-- Fonts: Pasajero (bundled), Candy Kisses (bundled)
+- Fonts: 10 bundled fonts including Pasajero, Candy Kisses, Disney Script, Cathode, and more
 - Built with [SkiaSharp](https://github.com/mono/SkiaSharp) 2.88.x
 
 ---
