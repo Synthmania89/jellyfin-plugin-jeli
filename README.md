@@ -2,7 +2,7 @@
 
 <img src="assets/Jeli-repo-banner.png" alt="JELI Banner" width="800"/>
 
-# JELI — Enhanced Library Images
+# JELI — Jellyfin Enhanced Library Images
 
 **Perspective poster-wall splash screens for Jellyfin**
 
